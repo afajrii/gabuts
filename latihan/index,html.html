@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> assalamualaikum </h1>
+        <img src="hello.gif">
+        <h1> jawab nya?</h1>
+        <button id='btn_waalaikumsalam' onclick='alert("MANTAP MENN")'>waalaikumsalam</button>&nbsp;
+        <button id='btn_THORIQhaji' onclick='alert("SALAH BELAJAR LAGI")'style='position:absolute'>THORIQHAJI
+        </button>&nbsp;
+    </body> 
+    <script>
+        function THORIQhaji(id){
+            var waalaikumsalam = document.getElementById('btn_waalaikumsalam');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+waalaikumsalam.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
